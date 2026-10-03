@@ -1,0 +1,56 @@
+* {
+    margin: 40px;
+    padding: 25px;
+    background-color: rgb(95, 89, 92);
+    text-align: center;
+}
+
+#password {
+    font: 10px;
+    color: violet;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 2px solid black;
+    /* opacity: 0.3; */
+}
+
+button {
+    padding: 10px;
+    margin: 1.25px;
+    /* cursor: pointer; */
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+
+    background-color: transparent;
+    color: black;
+
+    border: 3px solid white;
+    border-radius: 30px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* Mouse button ke upar */
+button:hover {
+    color: #00ffff;
+    border-color: #00ffff;
+
+    box-shadow:
+        0 0 10px #00ffff,
+        0 0 20px #00ffff,
+        0 0 40px #00ffff;
+}
+
+/* Click karte time */
+button:active {
+    transform: scale(0.95);
+}
